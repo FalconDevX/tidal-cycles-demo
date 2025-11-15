@@ -1,3 +1,5 @@
+setcps (350/60/4)
+
 d1 $ cat
   [ note "g4 bf4 d5 g5" # s "nexus" # gain "1.4"
   , note "bf5 d5 g5 bf5" # s "nexus" # gain "1.4"
@@ -10,14 +12,14 @@ d1 $ cat
 ]
 
 d2 $ cat
-  [ note "g3 g3 g3 g3" # s "nexus2" # gain "1.3" # midichan 1
-  , note "g3 g3 g3 g3" # s "nexus2" # gain "1.3" # midichan 1
-  , note "f3 f3 f3 f3" # s "nexus2" # gain "1.3" # midichan 1
-  , note "f3 f3 f3 f3" # s "nexus2" # gain "1.3" # midichan 1
-  , note "ef3 ef3 ef3 ef3" # s "nexus2" # gain "1.3" # midichan 1
-  , note "ef3 ef3 ef3 ef3" # s "nexus2" # gain "1.3" # midichan 1
-  , note "c3 c3 c3 c3" # s "nexus2" # gain "1.3" # midichan 1
-  , note "c3 c3 c3 c3" # s "nexus2" # gain "1.3" # midichan 1
+  [ note "g4 g4 g4 g4" # s "nexus2" # gain "1.3" # midichan 1
+  , note "g4 g4 g4 g4" # s "nexus2" # gain "1.3" # midichan 1
+  , note "f4 f4 f4 f4" # s "nexus2" # gain "1.3" # midichan 1
+  , note "f4 f4 f4 f4" # s "nexus2" # gain "1.3" # midichan 1
+  , note "ef4 ef4 ef4 ef4" # s "nexus2" # gain "1.3" # midichan 1
+  , note "ef4 ef4 ef4 ef4" # s "nexus2" # gain "1.3" # midichan 1
+  , note "c4 c4 c4 c4" # s "nexus2" # gain "1.3" # midichan 1
+  , note "c4 c4 c4 c4" # s "nexus2" # gain "1.3" # midichan 1
   ]
 
 d3 $ cat
@@ -68,10 +70,10 @@ d6 $
   slow 2 $
   cat
   [
-    n "g'min" # s "nexus" # midichan 3,
-    n "f'maj" # s "nexus" # midichan 3,
-    n "ef'maj" # s "nexus" # midichan 3,
-    n "c'min" # s "nexus" # midichan 3
+    n "g'min" # s "nexus" # midichan 3 gain "1.3",
+    n "f'maj" # s "nexus" # midichan 3 gain "1.3",
+    n "ef'maj" # s "nexus" # midichan 3 gain "1.3",
+    n "c'min" # s "nexus" # midichan 3 gain "1.3"
   ]
 
 hush
